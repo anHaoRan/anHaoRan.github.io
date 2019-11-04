@@ -22,31 +22,31 @@
     <loc>http://yoursite.com/2017/06/28/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2017-04-05-picking-and-rejecting-object-properties/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2017-03-16-tapping-for-quick-debugging/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2017-03-12-3-array-hacks/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2017-04-03-why-you-should-use-Object.is()-in-equality-comparison/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2017-03-09-working-with-websocket-timeout/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/more/2017-04-06-vuejs-how-vuejs-makes-a-copy-update-replace-inside-the-data-binding/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2017-03-12-3-array-hacks/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2017-03-16-tapping-for-quick-debugging/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/react/2016-01-02-keys-in-children-components-are-important/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-08-10-comma-operaton-in-js/</loc>
+    <loc>http://yoursite.com/2019/11/04/more/2017-04-06-vuejs-how-vuejs-makes-a-copy-update-replace-inside-the-data-binding/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-05-12-make-easy-loop-on-array/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2017-04-05-picking-and-rejecting-object-properties/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-08-02-copy-to-clipboard/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-08-10-comma-operaton-in-js/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-08-17-break-continue-loop-functional/</loc>
@@ -61,28 +61,28 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-10-28-three-useful-hacks/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-08-02-copy-to-clipboard/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-05-12-make-easy-loop-on-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-05-06-use-optional-arguments/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-04-05-return-values-with-the-new-operator/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-03-16-DOM-event-listening-made-easy/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-03-16-DOM-event-listening-made-easy/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-04-05-return-values-with-the-new-operator/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-03-03-helpful-console-log-hacks/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-17-reminders-about-reduce-function-usage/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-26-extract-unix-timestamp-easily/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-04-21-get-file-extension/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-26-extract-unix-timestamp-easily/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-17-reminders-about-reduce-function-usage/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-16-basics-declarations/</loc>
@@ -91,7 +91,7 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-15-detect-document-ready-in-pure-js/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-13-know-the-passing-mechanism/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-14-calculate-the-max-min-value-from-an-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-12-use-destructuring-in-function-parameters/</loc>
@@ -109,7 +109,7 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-08-advanced-properties/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-14-calculate-the-max-min-value-from-an-array/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-13-know-the-passing-mechanism/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-07-flattening-multidimensional-arrays-in-javascript/</loc>
@@ -118,10 +118,13 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-06-deduplicate-an-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-04-assignment-shorthands/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-03-implementing-asynchronous-loops/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-03-implementing-asynchronous-loops/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-01-map-to-the-rescue-adding-order-to-object-properties/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-04-assignment-shorthands/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-05-observe-dom-changes/</loc>
@@ -130,7 +133,10 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-02-02-create-range-0...n-easily-using-one-line/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-02-01-map-to-the-rescue-adding-order-to-object-properties/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-27-short-circuit-evaluation-in-js/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-28-curry-vs-partial-application/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-29-speed-up-recursive-functions-with-memoization/</loc>
@@ -139,31 +145,28 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-30-converting-truthy-falsy-values-to-boolean/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-27-short-circuit-evaluation-in-js/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-28-curry-vs-partial-application/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-31-avoid-modifying-or-passing-arguments-into-other-functions%E2%80%94it-kills-optimization/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-26-filtering-and-sorting-a-list-of-strings/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-24-use_===_instead_of_==/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-23-converting-to-number-fast-way/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-25-Using-immediately-invoked-function-expression/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-22-two-ways-to-empty-an-array/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-26-filtering-and-sorting-a-list-of-strings/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-21-shuffle-an-array/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-23-converting-to-number-fast-way/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-24-use_===_instead_of_==/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-20-return-objects-to-enable-chaining-of-functions/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-19-safe-string-concatenation/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-22-two-ways-to-empty-an-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-15-even-simpler-way-of-using-indexof-as-a-contains-clause/</loc>
@@ -178,13 +181,10 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-17-nodejs-run-a-module-if-it-is-not-required/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-19-safe-string-concatenation/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-21-shuffle-an-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-20-return-objects-to-enable-chaining-of-functions/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-13-tip-to-measure-performance-of-a-javascript-block/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-14-fat-arrow-functions/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-11-hoisting/</loc>
@@ -199,19 +199,7 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-12-pseudomandatory-parameters-in-es6-functions/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-14-fat-arrow-functions/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-08-converting-a-node-list-to-an-array/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-06-writing-a-single-method-for-arrays-and-a-single-element/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-05-differences-between-undefined-and-null/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-03-improve-nested-conditionals/</loc>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-13-tip-to-measure-performance-of-a-javascript-block/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2015-12-29-insert-item-inside-an-array/</loc>
@@ -220,7 +208,19 @@
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-04-sorting-strings-with-accented-characters/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-06-writing-a-single-method-for-arrays-and-a-single-element/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-03-improve-nested-conditionals/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-05-differences-between-undefined-and-null/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/2019/11/04/javascript/2016-01-07-use-strict-and-get-lazy/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/11/04/javascript/2016-01-08-converting-a-node-list-to-an-array/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/angular/2016-01-01-angularjs-digest-vs-apply/</loc>
@@ -244,10 +244,10 @@
     <loc>http://yoursite.com/2017/04/16/React%E8%A1%A8%E6%A0%BC%E9%A1%B9%E7%9B%AE%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/04/20/Mac%E7%89%88-sublime-text-3-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://yoursite.com/2017/06/29/Markdown/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/06/29/Markdown/</loc>
+    <loc>http://yoursite.com/2017/04/20/Mac%E7%89%88-sublime-text-3-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2017/06/07/ITem2APP/</loc>
@@ -259,25 +259,25 @@
     <loc>http://yoursite.com/2017/04/24/Javascript%E4%B8%AD%E7%9A%84Form%E8%A1%A8%E5%8D%95%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/07/30/20170730/</loc>
-    <lastmod>2019-11-04</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/2017/04/13/2017%E5%B9%B404%E6%9C%8813%E6%97%A521-52-30/</loc>
+    <loc>http://yoursite.com/2017/04/13/2017%E5%B9%B404%E6%9C%8813%E6%97%A511-25-54/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2017/04/27/2017%E5%B9%B404%E6%9C%8827%E6%97%A519-01-12/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/04/27/2017%E5%B9%B404%E6%9C%8827%E6%97%A5/</loc>
+    <loc>http://yoursite.com/2017/05/03/2017%E5%B9%B405%E6%9C%8803%E6%97%A518-23-40/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/04/13/2017%E5%B9%B404%E6%9C%8813%E6%97%A511-25-54/</loc>
+    <loc>http://yoursite.com/2017/04/13/2017%E5%B9%B404%E6%9C%8813%E6%97%A521-52-30/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2017/04/26/2017%E5%B9%B404%E6%9C%8826%E6%97%A5/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2017/05/03/2017%E5%B9%B405%E6%9C%8803%E6%97%A518-23-40/</loc>
+    <loc>http://yoursite.com/2017/04/27/2017%E5%B9%B404%E6%9C%8827%E6%97%A5/</loc>
+    <lastmod>2019-11-04</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2017/07/30/20170730/</loc>
     <lastmod>2019-11-04</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/04/2017%E5%B9%B404%E6%9C%8812%E6%97%A521-30-30/</loc>
