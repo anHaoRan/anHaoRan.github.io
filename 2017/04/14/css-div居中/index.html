@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="在网站界面不会显示，内容会加入网站源码的meta标签中，主要用于SEO；"><link rel="stylesheet" type="text/css" href="//fonts.loli.net/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.4"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.4"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><link rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css?v=2.0.4"><title>css div居中 | 主标题</title><meta name="generator" content="Hexo 4.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">css div居中</h1><a id="logo" href="/.">主标题</a><p class="description">副标题</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">css div居中</h1><div class="post-meta"><a href="/2017/04/14/css-div%E5%B1%85%E4%B8%AD/#comments" class="comment-count"></a><p><span class="date">Apr 14, 2017</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><p>使用css3将一个div水平和垂直居中显示<br>使用css3将一个div水平和垂直居中显示</p>
+<p>方案一：</p>
+<p>div绝对定位水平垂直居中【margin:auto实现绝对定位元素的居中】，</p>
+<a id="more"></a>
+<p>代码两个关键点：1.上下左右均0位置定位；</p>
+<p>　　　　　　　　2.margin: auto; 其width、height如何更改都是居中显示的，兼容性可以,IE7及之前版本不支持</p>
+<p>复制代码<br> .div1{<br>     width: 100px;<br>     height: 100px;<br>     border: 4px solid red;<br>     position: absolute;<br>     left:0;<br>     right:0;<br>     top: 0;<br>     bottom: 0;<br>     margin: auto;<br>     /<em>50%为自身尺寸的一半</em>/<br> }<br>代码</p>
+<p>优点：</p>
+<p>1.支持跨浏览器，包括IE8-IE10.</p>
+<p>2.无需其他特殊标记，CSS代码量少</p>
+<p>3.支持百分比%属性值和min-/max-属性</p>
+<p>4.只用这一个类可实现任何内容块居中</p>
+<p>5.不论是否设置padding都可居中（在不使用box-sizing属性的前提下）</p>
+<p>6.内容块可以被重绘。</p>
+<p>7.完美支持图片居中。</p>
+<p>缺点：</p>
+<p>1.必须声明高度（查看可变高度Variable Height）。</p>
+<p>2.建议设置overflow:auto来防止内容越界溢出。（查看溢出Overflow）。</p>
+<p>3.在Windows Phone设备上不起作用。</p>
+<p>浏览器兼容性：</p>
+<p>Chrome,Firefox, Safari, Mobile Safari, IE8-10.</p>
+<p>绝对定位方法在最新版的Chrome,Firefox, Safari, Mobile Safari, IE8-10.上均测试通过。</p>
+<p>方案二：</p>
+<p>div绝对定位水平垂直居中【margin 负间距】</p>
+<p>此方案代码关键点：<br>1.必需知道该div的宽度和高度，<br>2.然后设置位置为绝对位置，<br>3.距离页面窗口左边框和上边框的距离设置为50%，这个50%就是指页面窗口的宽度和高度的50%，<br>4.最后将该div分别左移和上移，左移和上移的大小就是该DIV宽度和高度的一半。</p>
+<p>复制代码<br>.div1{</p>
+<pre><code>width: 100px;
+height: 100px;
+border: 4px solid red;
+position: absolute;
+text-align: center;
+left:50%;
+top: 50%;
+margin: -50px 0 0 -50px;
+/*50%为自身尺寸的一半*/</code></pre><p>}<br>亦可写成：</p>
+<p>.div1{</p>
+<pre><code>width: 100px;
+height: 100px;
+background-color: green;
+position: absolute;
+
+text-align: center;
+
+left:50%;
+top: 50%;
+margin-left: -50px; /*  width/2  */
+margin-top: -50px; /*  height /2 */  </code></pre><p>}</p>
+<p>这或许是当前最流行的使用方法。</p>
+<p>测试表明，这是唯一在IE6-IE7上也表现良好的方法。</p>
+<p>优点：</p>
+<ol>
+<li><p>良好的跨浏览器特性，兼容IE6-IE7。</p>
+</li>
+<li><p>代码量少。</p>
+</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li><p>不能自适应。不支持百分比尺寸和min-/max-属性设置。</p>
+</li>
+<li><p>内容可能溢出容器。</p>
+</li>
+<li><p>边距大小与padding,和是否定义box-sizing: border-box有关，计算需要根据不同情况。</p>
+</li>
+</ol>
+<p>方案三：</p>
+<p>div绝对定位水平垂直居中【Transforms 变形】</p>
+<p>这是最简单的方法，不仅能实现绝对居中同样的效果，也支持联合可变高度方式使用。内容块定义transform: translate(-50%,-50%)  必须加上<br>top: 50%; left: 50%;</p>
+<p>.div1{</p>
+<pre><code>width: 200px;
+height: 200px;
+background-color: pink;
+position: absolute;
+text-align: center;
+left:50%;
+top: 50%;
+/*-webkit-transform: translate(-50%,-50%);*/
+/*-ms-transform: translate(-50%,-50%);*/
+transform: translate(-50%,-50%);</code></pre><p>}</p>
+<p>优点：</p>
+<ol>
+<li><p>内容可变高度</p>
+</li>
+<li><p>代码量少<br>缺点：</p>
+</li>
+<li><p>IE8不支持</p>
+</li>
+<li><p>属性需要写浏览器厂商前缀</p>
+</li>
+<li><p>可能干扰其他transform效果</p>
+</li>
+<li><p>某些情形下会出现文本或元素边界渲染模糊的现象</p>
+</li>
+</ol>
+<p>若只是水平（方向）居中：</p>
+<p>复制代码<br>.div1{<br>    width: 100px;<br>    height: 100px;<br>    border: 4px solid red;<br>    text-align: center;<br>    margin: 0  auto;<br>    /<em>50%为自身尺寸的一半</em>/<br>}</p>
+<p>css3不定宽高水平垂直居中</p>
+<p>只要三句话就可以实现不定宽高水平垂直居中。</p>
+<p>1 justify-content:center;//子元素水平居中<br>2 align-items:center;//子元素垂直居中<br>3 display:-webkit-flex;<br>在父级元素上面加上上面3句话，就可以实现子元素水平垂直居中。</p>
+</div><div class="post-copyright"><blockquote><p>原文作者: anhr</p><p>原文链接: <a href="http://yoursite.com/2017/04/14/css-div居中/">http://yoursite.com/2017/04/14/css-div居中/</a></p><p>版权声明: 转载请注明出处(必须保留原文作者署名原文链接)</p></blockquote></div><div class="tags"><a href="/tags/css/">css</a></div><div class="post-share"><div class="social-share"><span>分享到:</span></div></div><div class="post-nav"><a href="/2017/04/16/React%E8%A1%A8%E6%A0%BC%E9%A1%B9%E7%9B%AE%E4%BD%BF%E7%94%A8/" class="pre">React表格项目使用</a><a href="/2017/04/13/es6%E6%96%B0%E7%89%B9%E6%80%A7%E6%A6%82%E8%A7%88/" class="next">es6新特性概览</a></div><div id="comments"><div id="container"><script type="text/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js?v=2.0.4"></script><script type="text/javascript" src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js?v=2.0.4"></script><script>var gitalk = new Gitalk({
+  clientID: '020233ab019637e1dc8f',
+  clientSecret: '9f130c16b2a97f72d4ef69f35212a68743ecda8f',
+  repo: '',
+  owner: '',
+  admin: ['admin'],
+  id: md5(window.location.pathname),
+  distractionFreeMode: false,
+  language: 'zh-CN',
+  pagerDirection: 'last'
+})
+gitalk.render('container')</script></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/react/2016-01-02-keys-in-children-components-are-important/">子容器的Key是很重要的</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2017-03-12-3-array-hacks/">Array 的三个技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2017-04-05-picking-and-rejecting-object-properties/">选择（picking）和反选（rejecting）对象的属性</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/more/2017-04-06-vuejs-how-vuejs-makes-a-copy-update-replace-inside-the-data-binding/">Vuejs在資料綁定時會複製更新並替換目標元素</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2017-04-03-why-you-should-use-Object.is()-in-equality-comparison/">为什么你应该在相等比较中使用 Object.is()</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2017-03-16-tapping-for-quick-debugging/">使用 tap 来快速 debug</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2016-08-17-break-continue-loop-functional/">break 或 continue 循环函数</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2016-08-10-comma-operaton-in-js/">JavaScript 的逗号操作符</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/04/javascript/2016-05-12-make-easy-loop-on-array/">用数组建立一个简单的循环</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/zh-CN/">zh_CN</a><span class="category-list-count">68</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/zh-CN/angular/">angular</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/zh-CN/javascript/">javascript</a><span class="category-list-count">65</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/zh-CN/react/">react</a><span class="category-list-count">1</span></li></ul></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/table/" style="font-size: 15px;">table</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/%E5%89%8D%E7%AB%AF%E6%97%A5%E8%AE%B0/" style="font-size: 15px;">前端日记</a> <a href="/tags/%E3%80%90%E5%89%8D%E7%AB%AF%E6%97%A5%E5%BF%97%E3%80%91/" style="font-size: 15px;">【前端日志】</a> <a href="/tags/%E4%B8%80%E4%BA%9B%E6%9C%89%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/" style="font-size: 15px;">一些有用的网站</a> <a href="/tags/MacAPP/" style="font-size: 15px;">MacAPP</a> <a href="/tags/HTML/" style="font-size: 15px;">HTML</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/Mac-APP/" style="font-size: 15px;">Mac APP</a> <a href="/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/css/" style="font-size: 15px;">css</a> <a href="/tags/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92-%E4%BA%BA%E7%94%9F%E8%AE%A1%E5%88%92/" style="font-size: 15px;">人生规划-人生计划</a> <a href="/tags/Function/" style="font-size: 15px;">Function</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/html/" style="font-size: 15px;">html</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/%E6%8E%98%E9%87%91/" style="font-size: 15px;">掘金</a> <a href="/tags/demo/" style="font-size: 15px;">demo</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">70</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017</a><span class="archive-list-count">24</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅本站</a> |  <a href="/about/">联系博主</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次，本站总访客数:<i id="busuanzi_container_site_uv"><i id="busuanzi_value_site_uv"></i></i>人</p><p><span> Copyright &copy;<a href="/." rel="nofollow">anhr.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8170d198cf3adde2b007c4ab997b396c";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/search.json.js?v=2.0.4"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.4" async></script><link rel="stylesheet" type="text/css" href="/share/css/share.css"><script type="text/javascript" src="/share/js/social-share.js" charset="utf-8"></script><script type="text/javascript" src="/share/js/qrcode.js" charset="utf-8"></script></body></html>
