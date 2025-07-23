@@ -86,4 +86,9 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 node_modules/*
-dist/
+
+# 忽略 dist 文件夹内的所有文件
+dist/*
+# 但不忽略 dist 文件夹本身以及可能需要的空标记文件
+!dist/
+!dist/.gitkeep
