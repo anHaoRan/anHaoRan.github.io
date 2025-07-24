@@ -30,4 +30,5 @@ echo "提交子仓库变更..."
 cd $CHILD_REPO
 git add .
 git commit -m "更新构建产物: $(date +'%Y-%m-%d %H:%M:%S')"
+git push origin master
 echo "构建和同步完成！"
